@@ -1,6 +1,6 @@
 # TwistScan
 
-TwistScan is a Python tool that merges the domain‑permutation power of **dnstwist** (https://github.com/elceef/dnstwist) with the dynamic scanning capabilities of **urlscan.io** (https://urlscan.io/), to streamline the detection of phishing, typosquatting, and brand‑impersonation attempts.
+TwistScan is a Python tool that merges the domain‑permutation power of [**dnstwist**](https://github.com/elceef/dnstwist) with the dynamic scanning capabilities of [**urlscan.io**](https://urlscan.io/), to streamline the detection of phishing, typosquatting, and brand‑impersonation attempts.
 
 ## 💡 Why TwistScan?
 
@@ -59,7 +59,7 @@ Combining dnstwist's permutation engine with urlscan.io's dynamic scanning adds 
     python twistscan.py --domain example.com
   ```
 
-### CLI Options
+**CLI Options**
 
 | Option                                           | Description                                          | Default                  |
 |--------------------------------------------------|------------------------------------------------------|--------------------------|
