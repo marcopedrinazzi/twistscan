@@ -51,14 +51,12 @@ Combining dnstwist's permutation engine with urlscan.io's dynamic scanning adds 
     pip install -r requirements.txt
   ```
 3. **Configure**
-  Create an .env file with your `URLSCAN_API=<value>` (https://urlscan.io/about-api/)
-  Edit dictionary-dnstwist.dict, tld-list.dict as you prefer
+  Create an .env file with your `URLSCAN_API=<value>` (https://urlscan.io/about-api/). Edit `dictionary-dnstwist.dict`, `tld-list.dict` as you prefer, this will determine part of the results you will get with dnstwist.
 
 4. **Run (CLI version)**
   ```bash
     python twistscan.py --domain example.com
   ```
-
 **CLI Options**
 
 | Option                                           | Description                                          | Default                  |
